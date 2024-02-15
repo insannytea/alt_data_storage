@@ -1,0 +1,4 @@
+Welcome to text/video converter!
+
+This app converts text to its binary unicode representation
+and stores the resulting data in video format (.mp4 for now)
