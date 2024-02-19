@@ -1,2 +1,12 @@
 __pycache__/
 venv/
+
+# ignore data files in the input output folders
+input_data/input_text/*
+!input_data/input_text/.gitkeep
+input_data/input_video/*
+!input_data/input_video/.gitkeep
+output_data/output_text/*
+!output_data/output_text/.gitkeep
+output_data/output_video/*
+!output_data/output_video/.gitkeep

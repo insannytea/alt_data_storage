@@ -5,6 +5,10 @@ import imageio
 import numpy as np
 
 class VideoDecode:
+    '''
+    To initialise, input file location and output file location needs to be
+    provided (ex. 'folder\input_folder\input.mp4', 'folder\output_folder\output.txt')
+    '''
     def __init__(self, input_location, output_location):
         self.video = self.open_video(input_location)
         self.output_location = output_location

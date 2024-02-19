@@ -5,6 +5,10 @@ import imageio
 import numpy as np
 
 class VideoEncode:
+    '''
+    To initialise, input file location and output file location needs to be
+    provided (ex. 'folder\input_folder\input.txt', 'folder\output_folder\output.mp4')
+    '''
     def __init__(self, input_location, output_location):
         self.text = self.open_text(input_location)
         self.output_location = output_location
